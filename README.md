@@ -1,6 +1,6 @@
 # Developer device checklist script
 
-[![ShellCheck](https://github.com/OWNER/REPO/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/shellcheck.yml)
+[![ShellCheck](https://github.com/joeabur/developer-device-checklist-script/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/joeabur/developer-device-checklist-script/actions/workflows/shellcheck.yml)
 
 Purpose
 # Developer device checklist script
