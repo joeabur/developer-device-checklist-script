@@ -14,7 +14,7 @@ jobs:
         uses: reviewdog/action-shellcheck@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-check
+          reporter: github-pr-review
           filter_mode: added
           shellcheck_version: "latest"
           workdir: .
