@@ -1,6 +1,7 @@
 # Developer device checklist script
 
 [![ShellCheck](https://github.com/joeabur/developer-device-checklist-script/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/joeabur/developer-device-checklist-script/actions/workflows/shellcheck.yml)
+[![Release](https://img.shields.io/github/v/release/joeabur/developer-device-checklist-script)](https://github.com/joeabur/developer-device-checklist-script/releases/latest)
 
 Purpose
 # Developer device checklist script

@@ -1,0 +1,20 @@
+name: ShellCheck (reviewdog)
+
+on:
+  pull_request:
+    paths:
+      - '**/*.sh'
+
+jobs:
+  shellcheck-reviewdog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ShellCheck via reviewdog
+        uses: reviewdog/action-shellcheck@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-check
+          filter_mode: added
+          shellcheck_version: "latest"
+          workdir: .
