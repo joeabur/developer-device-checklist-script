@@ -1,0 +1,7 @@
+# Ignore script output files and common noise
+*.txt
+*.log
+dev-security-check-*.txt
+node_modules/
+*.swp
+.DS_Store
